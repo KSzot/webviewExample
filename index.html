@@ -10,8 +10,10 @@
 <body>
  <div>Przekierowanie za 5 sec</div>
     <script>
+      let url = decodeURIComponent(document.location.search);
+      console.log(url);
 setTimeout(() => {
-      
+        
         window.location.href = "exp://192.168.43.145:19000/?message=Redirected%20automatically%20by%20timer";
     }, 5000)
 </script>
