@@ -5,8 +5,12 @@
   <meta name="description" content="">
 
   <title></title>
-  <button onclick="myFunction()">Click me</button>
-
+  <button onclick="myFunction()">published expo</button>
+  <br/>
+    <button onclick="myFunction1()">my schema</button>
+  
+  <br/>
+     <button onclick="myFunction2()">onet</button>
 </head>
 <body>
  <div>Przekierowanie za 5 sec</div>
@@ -14,6 +18,12 @@
       
       function myFunction() {
   window.location.href = 'exp://exp.host/@community/with-webbrowser-redirect/--/path/into/app?hello=world';
+}
+            function myFunction1() {
+  window.location.href = 'late4drop://path/into/app?hello=world';
+}
+                 function myFunction2() {
+  window.location.href = 'https://onet.pl';
 }
       //let url = decodeURIComponent(document.location.search);
       //let urlSplit = url.split('?linkUri=')[1];
