@@ -5,11 +5,16 @@
   <meta name="description" content="">
 
   <title></title>
-  <button type='button' onclick={() =>  window.location.href = 'exp://exp.host/@community/with-webbrowser-redirect/--/path/into/app?hello=world' }>Otwórz aplikacje </button>
+  <button onclick="myFunction()">Click me</button>
+
 </head>
 <body>
  <div>Przekierowanie za 5 sec</div>
     <script>
+      
+      function myFunction() {
+  window.location.href = 'exp://exp.host/@community/with-webbrowser-redirect/--/path/into/app?hello=world';
+}
       //let url = decodeURIComponent(document.location.search);
       //let urlSplit = url.split('?linkUri=')[1];
      // let urlSplit = 'exp://exp.host/@community/with-webbrowser-redirect/--/path/into/app?hello=world';
