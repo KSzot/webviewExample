@@ -10,8 +10,9 @@
 <body>
  <div>Przekierowanie za 5 sec</div>
     <script>
-      let url = decodeURIComponent(document.location.search);
-      let urlSplit = url.split('?linkUri=')[1];
+      //let url = decodeURIComponent(document.location.search);
+      //let urlSplit = url.split('?linkUri=')[1];
+      let urlSplit = late4drop://path/into/app?hello=world;
 setTimeout(() => {
         
         window.location.href = `${urlSplit}`;
